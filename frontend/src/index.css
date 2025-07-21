@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: Outfit;
+}
+
+a.active .nav-text {
+    color: white;
+    padding: 0 20px;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #272727;
+    border: 1px solid #272727;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.roboto-light {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+}
