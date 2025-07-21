@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='flex justify-between items-center py5 font - font-medium'>
-
+      
     </div>
   )
 }
